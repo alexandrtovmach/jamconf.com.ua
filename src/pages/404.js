@@ -3,6 +3,6 @@
 // import Layout from "../components/layout"
 // import SEO from "../components/seo"
 
-const NotFoundPage = () => window.location.href = '/';
+const NotFoundPage = () => <div>404</div>;
 
 export default NotFoundPage

@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/404"
+  to = "/"
+  status = 200
