@@ -1,0 +1,27 @@
+header.header {
+  position: fixed;
+  height: var(--space-3);
+  width: calc(100% - var(--space-1) * 2);
+  background-color: var(--color-text-secondary);
+  box-shadow: 0 0 var(--space-0_5) var(--color-text-primary-10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-0_5) var(--space-1);
+
+  >.logo {
+    height: 100%;
+    >img {
+      height: 100%;
+    }
+  }
+
+  >nav {
+
+  }
+}
+
+.header-compensator {
+  height: var(--space-3);
+  width: 100%;
+}
